@@ -1,0 +1,1854 @@
+2025-04-27 07:50:25.173 Uncaught app execution
+NameError: name 'channel_limits' is not defined
+2025-04-27 07:52:26.452 Uncaught app execution
+NameError: name 'channel_limits' is not defined
+2025-04-27 07:52:49.436 Uncaught app execution
+NameError: name 'channel_limits' is not defined
+2025-04-27 07:52:59.361 Uncaught app execution
+NameError: name 'channel_limits' is not defined
+2025-04-27 07:53:11.785 Uncaught app execution
+NameError: name 'channel_limits' is not defined
+2025-04-27 07:53:28.979 Uncaught app execution
+NameError: name 'channel_limits' is not defined
+2025-04-27 07:53:40.187 Uncaught app execution
+NameError: name 'channel_limits' is not defined
+2025-04-27 07:56:32.549 Uncaught app execution
+NameError: name 'channel_limits' is not defined
+2025-04-27 07:56:36.272 Uncaught app execution
+NameError: name 'channel_limits' is not defined
+2025-04-27 07:59:01.304 Uncaught app execution
+NameError: name 'channel_limits' is not defined
+2025-04-27 07:59:07.096 Uncaught app execution
+NameError: name 'channel_limits' is not defined
+2025-04-27 08:34:47.332 Uncaught app execution
+NameError: name 'channel_limits' is not defined
+2025-04-27 08:46:47.924 Uncaught app execution
+NameError: name 'channel_limits' is not defined
+Welcome to the CBC MILP Solver 
+Version: Trunk
+Build Date: Oct 24 2021 
+
+Starting solution of the Linear programming relaxation problem using Primal Simplex
+
+Coin0506I Presolve 1002 (-1) rows, 3000 (-6000) columns and 5000 (-13000) elements
+Clp1000I sum of infeasibilities 3.20176e-07 - average 3.19537e-10, 1820 fixed columns
+Coin0506I Presolve 260 (-742) rows, 1180 (-1820) columns and 1696 (-3304) elements
+Clp0029I End of values pass after 1180 iterations
+Clp0014I Perturbing problem by 0.001% of 1.3381945 - largest nonzero change 2.9576128e-05 ( 0.0014788064%) - largest zero change 2.1883863e-05
+Clp0000I Optimal - objective value 17279.803
+Clp0000I Optimal - objective value 17279.803
+Coin0511I After Postsolve, objective 17279.803, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0014I Perturbing problem by 0.001% of 1.1344328 - largest nonzero change 2.9902802e-05 ( 0.0014951401%) - largest zero change 2.5115664e-05
+Clp0000I Optimal - objective value 28746.804
+Clp0000I Optimal - objective value 28746.804
+Clp0000I Optimal - objective value 28746.804
+Coin0511I After Postsolve, objective 28746.804, infeasibilities - dual 318.39143 (154), primal 0 (0)
+Coin0512I Presolved model was optimal, full model needs cleaning up
+Clp0000I Optimal - objective value 28746.804
+Clp0032I Optimal objective 28746.80439 - 126 iterations time 0.632, Presolve 0.01, Idiot 0.60
+
+Starting MIP optimization
+2025-04-27 08:48:30.435 Uncaught app execution
+KeyError: 'emails'
+Cgl0008I 1000 inequality constraints converted to equality constraints
+Cgl0004I processed model has 1002 rows, 3000 columns (3000 integer (3000 of which binary)) and 5000 elements
+Coin3009W Conflict graph built in 0.007 seconds, density: 0.033%
+Cgl0015I Clique Strengthening extended 0 cliques, 0 were dominated
+Cbc0045I Nauty did not find any useful orbits in time 0.143019
+Cbc0038I Initial state - 0 integers unsatisfied sum - 0
+Cbc0038I Solution found of -28746.8
+Cbc0038I Before mini branch and bound, 3000 integers at bound fixed and 0 continuous
+Cbc0038I Mini branch and bound did not improve solution (0.30 seconds)
+Cbc0038I After 0.30 seconds - Feasibility pump exiting with objective of -28746.8 - took 0.03 seconds
+Cbc0012I Integer solution of -28746.804 found by feasibility pump after 0 iterations and 0 nodes (0.30 seconds)
+Cbc0001I Search completed - best objective -28746.80438950988, took 0 iterations and 0 nodes (0.31 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Total time (CPU seconds):       0.56   (Wallclock seconds):       0.33
+
+Starting solution of the Linear programming relaxation problem using Primal Simplex
+
+Coin0506I Presolve 1002 (-1) rows, 3000 (-6000) columns and 5000 (-13000) elements
+Clp1000I sum of infeasibilities 3.20176e-07 - average 3.19537e-10, 1820 fixed columns
+Coin0506I Presolve 260 (-742) rows, 1180 (-1820) columns and 1696 (-3304) elements
+Clp0006I 0  Obj 15649.144 Dual inf 2902219.3 (1180)
+Clp0029I End of values pass after 1180 iterations
+Clp0014I Perturbing problem by 0.001% of 1.3381945 - largest nonzero change 2.9576128e-05 ( 0.0014788064%) - largest zero change 2.1883863e-05
+Clp0000I Optimal - objective value 17279.803
+Clp0000I Optimal - objective value 17279.803
+Coin0511I After Postsolve, objective 17279.803, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0006I 0  Obj 17279.803 Dual inf 20454.104 (984)
+Clp0014I Perturbing problem by 0.001% of 1.1344328 - largest nonzero change 2.9902802e-05 ( 0.0014951401%) - largest zero change 2.5115664e-05
+Clp0000I Optimal - objective value 28746.804
+Clp0000I Optimal - objective value 28746.804
+Clp0000I Optimal - objective value 28746.804
+Coin0511I After Postsolve, objective 28746.804, infeasibilities - dual 318.39143 (154), primal 0 (0)
+Coin0512I Presolved model was optimal, full model needs cleaning up
+Clp0006I 0  Obj 28746.804 Dual inf 318.39129 (154)
+Clp0000I Optimal - objective value 28746.804
+Clp0032I Optimal objective 28746.80439 - 126 iterations time 0.372, Presolve 0.01, Idiot 0.36
+
+Starting MIP optimization
+2025-04-27 08:48:31.522 Uncaught app execution
+KeyError: 'emails'
+Cgl0008I 1000 inequality constraints converted to equality constraints
+Cgl0004I processed model has 1002 rows, 3000 columns (3000 integer (3000 of which binary)) and 5000 elements
+Coin3009W Conflict graph built in 0.003 seconds, density: 0.033%
+Cgl0015I Clique Strengthening extended 0 cliques, 0 were dominated
+Cbc0045I Nauty did not find any useful orbits in time 0.067112
+Cbc0038I Initial state - 0 integers unsatisfied sum - 0
+Cbc0038I Solution found of -28746.8
+Cbc0038I Before mini branch and bound, 3000 integers at bound fixed and 0 continuous
+Cbc0038I Mini branch and bound did not improve solution (0.30 seconds)
+Cbc0038I After 0.30 seconds - Feasibility pump exiting with objective of -28746.8 - took 0.01 seconds
+Cbc0012I Integer solution of -28746.804 found by feasibility pump after 0 iterations and 0 nodes (0.30 seconds)
+Cbc0001I Search completed - best objective -28746.80438950988, took 0 iterations and 0 nodes (0.30 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Total time (CPU seconds):       0.25   (Wallclock seconds):       0.32
+
+Starting solution of the Linear programming relaxation problem using Primal Simplex
+
+Coin0506I Presolve 1002 (-1) rows, 3000 (-6000) columns and 5000 (-13000) elements
+Clp1000I sum of infeasibilities 3.20176e-07 - average 3.19537e-10, 1820 fixed columns
+Coin0506I Presolve 260 (-742) rows, 1180 (-1820) columns and 1696 (-3304) elements
+Clp0006I 0  Obj 15649.144 Dual inf 2902219.3 (1180)
+Clp0029I End of values pass after 1180 iterations
+Clp0014I Perturbing problem by 0.001% of 1.3381945 - largest nonzero change 2.9576128e-05 ( 0.0014788064%) - largest zero change 2.1883863e-05
+Clp0000I Optimal - objective value 17279.803
+Clp0000I Optimal - objective value 17279.803
+Coin0511I After Postsolve, objective 17279.803, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0006I 0  Obj 17279.803 Dual inf 20454.104 (984)
+Clp0014I Perturbing problem by 0.001% of 1.1344328 - largest nonzero change 2.9902802e-05 ( 0.0014951401%) - largest zero change 2.5115664e-05
+Clp0000I Optimal - objective value 28746.804
+Clp0000I Optimal - objective value 28746.804
+Clp0000I Optimal - objective value 28746.804
+Coin0511I After Postsolve, objective 28746.804, infeasibilities - dual 318.39143 (154), primal 0 (0)
+Coin0512I Presolved model was optimal, full model needs cleaning up
+Clp0006I 0  Obj 28746.804 Dual inf 318.39129 (154)
+Clp0000I Optimal - objective value 28746.804
+Clp0032I Optimal objective 28746.80439 - 126 iterations time 0.342, Presolve 0.01, Idiot 0.33
+
+Starting MIP optimization
+/usr/local/lib/python3.9/site-packages/numpy/lib/_histograms_impl.py:895: RuntimeWarning: invalid value encountered in divide
+  return n/db/n.sum(), bin_edges
+/usr/local/lib/python3.9/site-packages/numpy/lib/_histograms_impl.py:895: RuntimeWarning: invalid value encountered in divide
+  return n/db/n.sum(), bin_edges
+Cgl0008I 1000 inequality constraints converted to equality constraints
+Cgl0004I processed model has 1002 rows, 3000 columns (3000 integer (3000 of which binary)) and 5000 elements
+Coin3009W Conflict graph built in 0.002 seconds, density: 0.033%
+Cgl0015I Clique Strengthening extended 0 cliques, 0 were dominated
+Cbc0045I Nauty did not find any useful orbits in time 0.069119
+Cbc0038I Initial state - 0 integers unsatisfied sum - 0
+Cbc0038I Solution found of -28746.8
+Cbc0038I Before mini branch and bound, 3000 integers at bound fixed and 0 continuous
+Cbc0038I Mini branch and bound did not improve solution (0.22 seconds)
+Cbc0038I After 0.22 seconds - Feasibility pump exiting with objective of -28746.8 - took 0.01 seconds
+Cbc0012I Integer solution of -28746.804 found by feasibility pump after 0 iterations and 0 nodes (0.22 seconds)
+Cbc0001I Search completed - best objective -28746.80438950988, took 0 iterations and 0 nodes (0.22 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Total time (CPU seconds):       0.24   (Wallclock seconds):       0.24
+
+Starting solution of the Linear programming relaxation problem using Primal Simplex
+
+Coin0506I Presolve 1002 (-1) rows, 3000 (-6000) columns and 5000 (-13000) elements
+Clp1000I sum of infeasibilities 3.20176e-07 - average 3.19537e-10, 1820 fixed columns
+Coin0506I Presolve 260 (-742) rows, 1180 (-1820) columns and 1696 (-3304) elements
+Clp0006I 0  Obj 15649.144 Dual inf 2902219.3 (1180)
+Clp0029I End of values pass after 1180 iterations
+Clp0014I Perturbing problem by 0.001% of 1.3381945 - largest nonzero change 2.9576128e-05 ( 0.0014788064%) - largest zero change 2.1883863e-05
+Clp0000I Optimal - objective value 17279.803
+Clp0000I Optimal - objective value 17279.803
+Coin0511I After Postsolve, objective 17279.803, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0006I 0  Obj 17279.803 Dual inf 20454.104 (984)
+Clp0014I Perturbing problem by 0.001% of 1.1344328 - largest nonzero change 2.9902802e-05 ( 0.0014951401%) - largest zero change 2.5115664e-05
+Clp0000I Optimal - objective value 28746.804
+Clp0000I Optimal - objective value 28746.804
+Clp0000I Optimal - objective value 28746.804
+Coin0511I After Postsolve, objective 28746.804, infeasibilities - dual 318.39143 (154), primal 0 (0)
+Coin0512I Presolved model was optimal, full model needs cleaning up
+Clp0006I 0  Obj 28746.804 Dual inf 318.39129 (154)
+Clp0000I Optimal - objective value 28746.804
+Clp0032I Optimal objective 28746.80439 - 126 iterations time 0.362, Presolve 0.01, Idiot 0.34
+
+Starting MIP optimization
+2025-04-27 08:51:22.278 Uncaught app execution
+KeyError: 'emails'
+Cgl0008I 1000 inequality constraints converted to equality constraints
+Cgl0004I processed model has 1002 rows, 3000 columns (3000 integer (3000 of which binary)) and 5000 elements
+Coin3009W Conflict graph built in 0.002 seconds, density: 0.033%
+Cgl0015I Clique Strengthening extended 0 cliques, 0 were dominated
+Cbc0045I Nauty did not find any useful orbits in time 0.079859
+Cbc0038I Initial state - 0 integers unsatisfied sum - 0
+Cbc0038I Solution found of -28746.8
+Cbc0038I Before mini branch and bound, 3000 integers at bound fixed and 0 continuous
+Cbc0038I Mini branch and bound did not improve solution (0.24 seconds)
+Cbc0038I After 0.24 seconds - Feasibility pump exiting with objective of -28746.8 - took 0.01 seconds
+Cbc0012I Integer solution of -28746.804 found by feasibility pump after 0 iterations and 0 nodes (0.24 seconds)
+Cbc0001I Search completed - best objective -28746.80438950988, took 0 iterations and 0 nodes (0.25 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Total time (CPU seconds):       0.25   (Wallclock seconds):       0.26
+
+Starting solution of the Linear programming relaxation problem using Primal Simplex
+
+Coin0506I Presolve 1002 (-1) rows, 3000 (-6000) columns and 5000 (-13000) elements
+Clp1000I sum of infeasibilities 3.20176e-07 - average 3.19537e-10, 1820 fixed columns
+Coin0506I Presolve 260 (-742) rows, 1180 (-1820) columns and 1696 (-3304) elements
+Clp0006I 0  Obj 15649.144 Dual inf 2902219.3 (1180)
+Clp0029I End of values pass after 1180 iterations
+Clp0014I Perturbing problem by 0.001% of 1.3381945 - largest nonzero change 2.9576128e-05 ( 0.0014788064%) - largest zero change 2.1883863e-05
+Clp0000I Optimal - objective value 17279.803
+Clp0000I Optimal - objective value 17279.803
+Coin0511I After Postsolve, objective 17279.803, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0006I 0  Obj 17279.803 Dual inf 20454.104 (984)
+Clp0014I Perturbing problem by 0.001% of 1.1344328 - largest nonzero change 2.9902802e-05 ( 0.0014951401%) - largest zero change 2.5115664e-05
+Clp0000I Optimal - objective value 28746.804
+Clp0000I Optimal - objective value 28746.804
+Clp0000I Optimal - objective value 28746.804
+Coin0511I After Postsolve, objective 28746.804, infeasibilities - dual 318.39143 (154), primal 0 (0)
+Coin0512I Presolved model was optimal, full model needs cleaning up
+Clp0006I 0  Obj 28746.804 Dual inf 318.39129 (154)
+Clp0000I Optimal - objective value 28746.804
+Clp0032I Optimal objective 28746.80439 - 126 iterations time 0.352, Presolve 0.01, Idiot 0.33
+
+Starting MIP optimization
+/usr/local/lib/python3.9/site-packages/numpy/lib/_histograms_impl.py:895: RuntimeWarning: invalid value encountered in divide
+  return n/db/n.sum(), bin_edges
+/usr/local/lib/python3.9/site-packages/numpy/lib/_histograms_impl.py:895: RuntimeWarning: invalid value encountered in divide
+  return n/db/n.sum(), bin_edges
+Cgl0008I 1000 inequality constraints converted to equality constraints
+Cgl0004I processed model has 1002 rows, 3000 columns (3000 integer (3000 of which binary)) and 5000 elements
+Coin3009W Conflict graph built in 0.003 seconds, density: 0.033%
+Cgl0015I Clique Strengthening extended 0 cliques, 0 were dominated
+Cbc0045I Nauty did not find any useful orbits in time 0.070797
+Cbc0038I Initial state - 0 integers unsatisfied sum - 0
+Cbc0038I Solution found of -28746.8
+Cbc0038I Before mini branch and bound, 3000 integers at bound fixed and 0 continuous
+Cbc0038I Mini branch and bound did not improve solution (0.23 seconds)
+Cbc0038I After 0.23 seconds - Feasibility pump exiting with objective of -28746.8 - took 0.01 seconds
+Cbc0012I Integer solution of -28746.804 found by feasibility pump after 0 iterations and 0 nodes (0.23 seconds)
+Cbc0001I Search completed - best objective -28746.80438950988, took 0 iterations and 0 nodes (0.24 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Total time (CPU seconds):       0.25   (Wallclock seconds):       0.25
+
+Starting solution of the Linear programming relaxation problem using Primal Simplex
+
+Coin0506I Presolve 1002 (-1) rows, 3000 (-6000) columns and 5000 (-13000) elements
+Clp1000I sum of infeasibilities 3.20176e-07 - average 3.19537e-10, 1820 fixed columns
+Coin0506I Presolve 260 (-742) rows, 1180 (-1820) columns and 1696 (-3304) elements
+Clp0006I 0  Obj 15649.144 Dual inf 2902219.3 (1180)
+Clp0029I End of values pass after 1180 iterations
+Clp0014I Perturbing problem by 0.001% of 1.3381945 - largest nonzero change 2.9576128e-05 ( 0.0014788064%) - largest zero change 2.1883863e-05
+Clp0000I Optimal - objective value 17279.803
+Clp0000I Optimal - objective value 17279.803
+Coin0511I After Postsolve, objective 17279.803, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0006I 0  Obj 17279.803 Dual inf 20454.104 (984)
+Clp0014I Perturbing problem by 0.001% of 1.1344328 - largest nonzero change 2.9902802e-05 ( 0.0014951401%) - largest zero change 2.5115664e-05
+Clp0000I Optimal - objective value 28746.804
+Clp0000I Optimal - objective value 28746.804
+Clp0000I Optimal - objective value 28746.804
+Coin0511I After Postsolve, objective 28746.804, infeasibilities - dual 318.39143 (154), primal 0 (0)
+Coin0512I Presolved model was optimal, full model needs cleaning up
+Clp0006I 0  Obj 28746.804 Dual inf 318.39129 (154)
+Clp0000I Optimal - objective value 28746.804
+Clp0032I Optimal objective 28746.80439 - 126 iterations time 0.342, Presolve 0.01, Idiot 0.33
+
+Starting MIP optimization
+2025-04-27 08:54:37.463 Uncaught app execution
+TypeError: unhashable type: 'Series'
+Cgl0008I 1000 inequality constraints converted to equality constraints
+Cgl0004I processed model has 1002 rows, 3000 columns (3000 integer (3000 of which binary)) and 5000 elements
+Coin3009W Conflict graph built in 0.003 seconds, density: 0.033%
+Cgl0015I Clique Strengthening extended 0 cliques, 0 were dominated
+Cbc0045I Nauty did not find any useful orbits in time 0.069846
+Cbc0038I Initial state - 0 integers unsatisfied sum - 0
+Cbc0038I Solution found of -28746.8
+Cbc0038I Before mini branch and bound, 3000 integers at bound fixed and 0 continuous
+Cbc0038I Mini branch and bound did not improve solution (0.24 seconds)
+Cbc0038I After 0.24 seconds - Feasibility pump exiting with objective of -28746.8 - took 0.01 seconds
+Cbc0012I Integer solution of -28746.804 found by feasibility pump after 0 iterations and 0 nodes (0.24 seconds)
+Cbc0001I Search completed - best objective -28746.80438950988, took 0 iterations and 0 nodes (0.24 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Total time (CPU seconds):       0.25   (Wallclock seconds):       0.26
+
+Starting solution of the Linear programming relaxation problem using Primal Simplex
+
+Coin0506I Presolve 1002 (-1) rows, 3000 (-6000) columns and 5000 (-13000) elements
+Clp1000I sum of infeasibilities 3.20176e-07 - average 3.19537e-10, 1820 fixed columns
+Coin0506I Presolve 260 (-742) rows, 1180 (-1820) columns and 1696 (-3304) elements
+Clp0006I 0  Obj 15649.144 Dual inf 2902219.3 (1180)
+Clp0029I End of values pass after 1180 iterations
+Clp0014I Perturbing problem by 0.001% of 1.3381945 - largest nonzero change 2.9576128e-05 ( 0.0014788064%) - largest zero change 2.1883863e-05
+Clp0000I Optimal - objective value 17279.803
+Clp0000I Optimal - objective value 17279.803
+Coin0511I After Postsolve, objective 17279.803, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0006I 0  Obj 17279.803 Dual inf 20454.104 (984)
+Clp0014I Perturbing problem by 0.001% of 1.1344328 - largest nonzero change 2.9902802e-05 ( 0.0014951401%) - largest zero change 2.5115664e-05
+Clp0000I Optimal - objective value 28746.804
+Clp0000I Optimal - objective value 28746.804
+Clp0000I Optimal - objective value 28746.804
+Coin0511I After Postsolve, objective 28746.804, infeasibilities - dual 318.39143 (154), primal 0 (0)
+Coin0512I Presolved model was optimal, full model needs cleaning up
+Clp0006I 0  Obj 28746.804 Dual inf 318.39129 (154)
+Clp0000I Optimal - objective value 28746.804
+Clp0032I Optimal objective 28746.80439 - 126 iterations time 0.362, Presolve 0.01, Idiot 0.34
+
+Starting MIP optimization
+/usr/local/lib/python3.9/site-packages/numpy/lib/_histograms_impl.py:895: RuntimeWarning: invalid value encountered in divide
+  return n/db/n.sum(), bin_edges
+/usr/local/lib/python3.9/site-packages/numpy/lib/_histograms_impl.py:895: RuntimeWarning: invalid value encountered in divide
+  return n/db/n.sum(), bin_edges
+2025-04-27 09:00:03.454 Uncaught app execution
+NameError: name 'joblib' is not defined
+2025-04-27 09:00:38.783 Uncaught app execution
+ModuleNotFoundError: No module named 'joblib'
+2025-04-27 09:00:40.645 Uncaught app execution
+ModuleNotFoundError: No module named 'joblib'
+2025-04-27 09:04:41.103 Uncaught app execution
+ModuleNotFoundError: No module named 'joblib'
+2025-04-27 09:05:51.175 Uncaught app execution
+ModuleNotFoundError: No module named 'joblib'
+2025-04-27 09:07:25.644 Uncaught app execution
+ModuleNotFoundError: No module named 'joblib'
+2025-04-27 09:08:36.963 Uncaught app execution
+ModuleNotFoundError: No module named 'joblib'
+2025-04-27 09:09:39.980 Uncaught app execution
+ModuleNotFoundError: No module named 'joblib'
+systemctl_container
+systemctl_container
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.17.0.2:8501
+  External URL: http://185.204.3.240:8501
+
+2025-04-27 09:10:39.210 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/Site_from_host/scripts/server.py", line 2, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/Site_from_host/scripts/processing.py", line 9, in <module>
+    import lightgbm
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/__init__.py", line 11, in <module>
+    from .basic import Booster, Dataset, Sequence, register_logger
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/basic.py", line 9, in <module>
+    from .libpath import _LIB  # isort: skip
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/libpath.py", line 49, in <module>
+    _LIB = ctypes.cdll.LoadLibrary(_find_lib_path()[0])
+  File "/usr/local/lib/python3.9/ctypes/__init__.py", line 452, in LoadLibrary
+    return self._dlltype(name)
+  File "/usr/local/lib/python3.9/ctypes/__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: libgomp.so.1: cannot open shared object file: No such file or directory
+2025-04-27 09:10:43.623 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/Site_from_host/scripts/server.py", line 2, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/Site_from_host/scripts/processing.py", line 9, in <module>
+    import lightgbm
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/__init__.py", line 11, in <module>
+    from .basic import Booster, Dataset, Sequence, register_logger
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/basic.py", line 9, in <module>
+    from .libpath import _LIB  # isort: skip
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/libpath.py", line 49, in <module>
+    _LIB = ctypes.cdll.LoadLibrary(_find_lib_path()[0])
+  File "/usr/local/lib/python3.9/ctypes/__init__.py", line 452, in LoadLibrary
+    return self._dlltype(name)
+  File "/usr/local/lib/python3.9/ctypes/__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: libgomp.so.1: cannot open shared object file: No such file or directory
+2025-04-27 09:11:54.614 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/Site_from_host/scripts/server.py", line 2, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/Site_from_host/scripts/processing.py", line 9, in <module>
+    import lightgbm
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/__init__.py", line 11, in <module>
+    from .basic import Booster, Dataset, Sequence, register_logger
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/basic.py", line 9, in <module>
+    from .libpath import _LIB  # isort: skip
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/libpath.py", line 49, in <module>
+    _LIB = ctypes.cdll.LoadLibrary(_find_lib_path()[0])
+  File "/usr/local/lib/python3.9/ctypes/__init__.py", line 452, in LoadLibrary
+    return self._dlltype(name)
+  File "/usr/local/lib/python3.9/ctypes/__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: libgomp.so.1: cannot open shared object file: No such file or directory
+2025-04-27 09:12:12.145 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/Site_from_host/scripts/server.py", line 2, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/Site_from_host/scripts/processing.py", line 37, in <module>
+    model_mortgage = joblib.load('/home/pavel/sklonnost_klientov_k_produktam/source/Tests/Boosting/calibrated_models/mortgage_model.pkl')
+NameError: name 'joblib' is not defined
+systemctl_container
+systemctl_container
+python3: can't open file '/sklonnost_klientov_k_produktam/Site/run.py': [Errno 2] No such file or directory
+systemctl_container
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.17.0.2:8501
+  External URL: http://185.204.3.240:8501
+
+2025-04-27 09:22:44.129 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/server.py", line 2, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/processing.py", line 37, in <module>
+    model_mortgage = joblib.load('/home/pavel/sklonnost_klientov_k_produktam/source/Tests/Boosting/calibrated_models/mortgage_model.pkl')
+NameError: name 'joblib' is not defined
+2025-04-27 09:22:54.451 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/server.py", line 2, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/processing.py", line 37, in <module>
+    model_mortgage = joblib.load('/home/pavel/sklonnost_klientov_k_produktam/source/Tests/Boosting/calibrated_models/mortgage_model.pkl')
+NameError: name 'joblib' is not defined
+2025-04-27 09:23:12.370 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/server.py", line 2, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/processing.py", line 37, in <module>
+    model_mortgage = joblib.load('/home/pavel/sklonnost_klientov_k_produktam/source/Tests/Boosting/calibrated_models/mortgage_model.pkl')
+NameError: name 'joblib' is not defined
+2025-04-27 09:23:31.871 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/server.py", line 2, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/processing.py", line 9, in <module>
+    import lightgbm
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/__init__.py", line 11, in <module>
+    from .basic import Booster, Dataset, Sequence, register_logger
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/basic.py", line 9, in <module>
+    from .libpath import _LIB  # isort: skip
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/libpath.py", line 49, in <module>
+    _LIB = ctypes.cdll.LoadLibrary(_find_lib_path()[0])
+  File "/usr/local/lib/python3.9/ctypes/__init__.py", line 452, in LoadLibrary
+    return self._dlltype(name)
+  File "/usr/local/lib/python3.9/ctypes/__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: libgomp.so.1: cannot open shared object file: No such file or directory
+2025-04-27 09:24:52.107 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/server.py", line 2, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/processing.py", line 9, in <module>
+    import lightgbm
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/__init__.py", line 11, in <module>
+    from .basic import Booster, Dataset, Sequence, register_logger
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/basic.py", line 9, in <module>
+    from .libpath import _LIB  # isort: skip
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/libpath.py", line 49, in <module>
+    _LIB = ctypes.cdll.LoadLibrary(_find_lib_path()[0])
+  File "/usr/local/lib/python3.9/ctypes/__init__.py", line 452, in LoadLibrary
+    return self._dlltype(name)
+  File "/usr/local/lib/python3.9/ctypes/__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: libgomp.so.1: cannot open shared object file: No such file or directory
+2025-04-27 09:24:57.586 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/server.py", line 2, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/processing.py", line 9, in <module>
+    import lightgbm
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/__init__.py", line 11, in <module>
+    from .basic import Booster, Dataset, Sequence, register_logger
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/basic.py", line 9, in <module>
+    from .libpath import _LIB  # isort: skip
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/libpath.py", line 49, in <module>
+    _LIB = ctypes.cdll.LoadLibrary(_find_lib_path()[0])
+  File "/usr/local/lib/python3.9/ctypes/__init__.py", line 452, in LoadLibrary
+    return self._dlltype(name)
+  File "/usr/local/lib/python3.9/ctypes/__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: libgomp.so.1: cannot open shared object file: No such file or directory
+2025-04-27 09:25:16.724 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/server.py", line 2, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/processing.py", line 37, in <module>
+    model_mortgage = joblib.load('/home/pavel/sklonnost_klientov_k_produktam/source/Tests/Boosting/calibrated_models/mortgage_model.pkl')
+NameError: name 'joblib' is not defined
+2025-04-27 09:25:19.787 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/server.py", line 2, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/processing.py", line 37, in <module>
+    model_mortgage = joblib.load('/home/pavel/sklonnost_klientov_k_produktam/source/Tests/Boosting/calibrated_models/mortgage_model.pkl')
+NameError: name 'joblib' is not defined
+2025-04-27 09:25:41.924 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/server.py", line 2, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/processing.py", line 37, in <module>
+    model_mortgage = joblib.load('/home/pavel/sklonnost_klientov_k_produktam/source/Tests/Boosting/calibrated_models/mortgage_model.pkl')
+  File "/usr/local/lib/python3.9/site-packages/joblib/numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pavel/sklonnost_klientov_k_produktam/source/Tests/Boosting/calibrated_models/mortgage_model.pkl'
+2025-04-27 09:27:00.093 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/server.py", line 2, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/processing.py", line 37, in <module>
+    model_mortgage = joblib.load('/home/pavel/sklonnost_klientov_k_produktam/source/Tests/Boosting/calibrated_models/mortgage_model.pkl')
+  File "/usr/local/lib/python3.9/site-packages/joblib/numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pavel/sklonnost_klientov_k_produktam/source/Tests/Boosting/calibrated_models/mortgage_model.pkl'
+2025-04-27 09:27:18.895 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/server.py", line 2, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/processing.py", line 9, in <module>
+    import lightgbm
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/__init__.py", line 11, in <module>
+    from .basic import Booster, Dataset, Sequence, register_logger
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/basic.py", line 9, in <module>
+    from .libpath import _LIB  # isort: skip
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/libpath.py", line 49, in <module>
+    _LIB = ctypes.cdll.LoadLibrary(_find_lib_path()[0])
+  File "/usr/local/lib/python3.9/ctypes/__init__.py", line 452, in LoadLibrary
+    return self._dlltype(name)
+  File "/usr/local/lib/python3.9/ctypes/__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: libgomp.so.1: cannot open shared object file: No such file or directory
+2025-04-27 09:28:26.723 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/server.py", line 2, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/processing.py", line 37, in <module>
+    model_mortgage = joblib.load('/home/pavel/sklonnost_klientov_k_produktam/source/Tests/Boosting/calibrated_models/mortgage_model.pkl')
+  File "/usr/local/lib/python3.9/site-packages/joblib/numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pavel/sklonnost_klientov_k_produktam/source/Tests/Boosting/calibrated_models/mortgage_model.pkl'
+2025-04-27 09:29:17.933 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/server.py", line 2, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/processing.py", line 37, in <module>
+    model_mortgage = joblib.load('sklonnost_klientov_k_produktam/source/Tests/Boosting/calibrated_models/mortgage_model.pkl')
+  File "/usr/local/lib/python3.9/site-packages/joblib/numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'sklonnost_klientov_k_produktam/source/Tests/Boosting/calibrated_models/mortgage_model.pkl'
+2025-04-27 09:31:29.370 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/server.py", line 2, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/processing.py", line 37, in <module>
+    model_mortgage = joblib.load('../../Tests/Boosting/calibrated_models/mortgage_model.pkl')
+  File "/usr/local/lib/python3.9/site-packages/joblib/numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../../Tests/Boosting/calibrated_models/mortgage_model.pkl'
+2025-04-27 09:32:16.941 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/server.py", line 2, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/processing.py", line 37, in <module>
+    model_mortgage = joblib.load('../../Tests/Boosting/calibrated_models/mortgage_model.pkl')
+  File "/usr/local/lib/python3.9/site-packages/joblib/numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../../Tests/Boosting/calibrated_models/mortgage_model.pkl'
+2025-04-27 09:33:08.710 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/server.py", line 2, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/processing.py", line 37, in <module>
+    model_mortgage = joblib.load('../../Tests/Boosting/calibrated_models/mortgage_model.pkl')
+  File "/usr/local/lib/python3.9/site-packages/joblib/numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../../Tests/Boosting/calibrated_models/mortgage_model.pkl'
+2025-04-27 09:34:08.829 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/server.py", line 2, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/processing.py", line 37, in <module>
+    model_mortgage = joblib.load('../../Tests/Boosting/calibrated_models/mortgage_model.pkl')
+  File "/usr/local/lib/python3.9/site-packages/joblib/numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../../Tests/Boosting/calibrated_models/mortgage_model.pkl'
+.
+..
+.venv
+Data
+Docker
+Site
+Tests
+sklonnost_klientov_k_produktam_eto_nazvaniye_dolzno_resat_glasa.service
+2025-04-27 09:34:24.894 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/server.py", line 6, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/processing.py", line 37, in <module>
+    model_mortgage = joblib.load('../../Tests/Boosting/calibrated_models/mortgage_model.pkl')
+  File "/usr/local/lib/python3.9/site-packages/joblib/numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../../Tests/Boosting/calibrated_models/mortgage_model.pkl'
+.
+..
+.venv
+Data
+Docker
+Site
+Tests
+sklonnost_klientov_k_produktam_eto_nazvaniye_dolzno_resat_glasa.service
+2025-04-27 09:34:44.158 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/server.py", line 6, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/processing.py", line 37, in <module>
+    model_mortgage = joblib.load('../../Tests/Boosting/calibrated_models/mortgage_model.pkl')
+  File "/usr/local/lib/python3.9/site-packages/joblib/numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../../Tests/Boosting/calibrated_models/mortgage_model.pkl'
+.
+..
+.venv
+Data
+Docker
+Site
+Tests
+sklonnost_klientov_k_produktam_eto_nazvaniye_dolzno_resat_glasa.service
+2025-04-27 09:35:16.717 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/server.py", line 8, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/processing.py", line 37, in <module>
+    model_mortgage = joblib.load('../../Tests/Boosting/calibrated_models/mortgage_model.pkl')
+  File "/usr/local/lib/python3.9/site-packages/joblib/numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../../Tests/Boosting/calibrated_models/mortgage_model.pkl'
+.
+..
+.venv
+Data
+Docker
+Site
+Tests
+sklonnost_klientov_k_produktam_eto_nazvaniye_dolzno_resat_glasa.service
+2025-04-27 09:35:23.736 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/server.py", line 8, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/processing.py", line 37, in <module>
+    model_mortgage = joblib.load('../../Tests/Boosting/calibrated_models/mortgage_model.pkl')
+  File "/usr/local/lib/python3.9/site-packages/joblib/numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../../Tests/Boosting/calibrated_models/mortgage_model.pkl'
+.
+..
+.venv
+Data
+Docker
+Site
+Tests
+sklonnost_klientov_k_produktam_eto_nazvaniye_dolzno_resat_glasa.service
+2025-04-27 09:35:59.517 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/server.py", line 6, in <module>
+    st.write(proc.stdout.read())
+AttributeError: 'NoneType' object has no attribute 'read'
+.
+..
+.venv
+Data
+Docker
+Site
+Tests
+sklonnost_klientov_k_produktam_eto_nazvaniye_dolzno_resat_glasa.service
+2025-04-27 09:36:16.827 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/server.py", line 6, in <module>
+    st.write(proc.stdout.readline())
+AttributeError: 'NoneType' object has no attribute 'readline'
+2025-04-27 09:37:54.925 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/server.py", line 8, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/processing.py", line 37, in <module>
+    model_mortgage = joblib.load('../../Tests/Boosting/calibrated_models/mortgage_model.pkl')
+  File "/usr/local/lib/python3.9/site-packages/joblib/numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../../Tests/Boosting/calibrated_models/mortgage_model.pkl'
+2025-04-27 09:38:03.080 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/server.py", line 8, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/processing.py", line 37, in <module>
+    model_mortgage = joblib.load('../../Tests/Boosting/calibrated_models/mortgage_model.pkl')
+  File "/usr/local/lib/python3.9/site-packages/joblib/numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../../Tests/Boosting/calibrated_models/mortgage_model.pkl'
+2025-04-27 09:38:12.394 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/server.py", line 8, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/processing.py", line 37, in <module>
+    model_mortgage = joblib.load('../../Tests/Boosting/calibrated_models/mortgage_model.pkl')
+  File "/usr/local/lib/python3.9/site-packages/joblib/numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../../Tests/Boosting/calibrated_models/mortgage_model.pkl'
+2025-04-27 09:39:15.085 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/server.py", line 7, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/processing.py", line 37, in <module>
+    model_mortgage = joblib.load('../../Tests/Boosting/calibrated_models/mortgage_model.pkl')
+  File "/usr/local/lib/python3.9/site-packages/joblib/numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../../Tests/Boosting/calibrated_models/mortgage_model.pkl'
+2025-04-27 09:39:28.134 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/server.py", line 7, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/processing.py", line 37, in <module>
+    model_mortgage = joblib.load('Tests/Boosting/calibrated_models/mortgage_model.pkl')
+  File "/usr/local/lib/python3.9/site-packages/joblib/numpy_pickle.py", line 658, in load
+    obj = _unpickle(fobj, filename, mmap_mode)
+  File "/usr/local/lib/python3.9/site-packages/joblib/numpy_pickle.py", line 577, in _unpickle
+    obj = unpickler.load()
+  File "/usr/local/lib/python3.9/pickle.py", line 1212, in load
+    dispatch[key[0]](self)
+  File "/usr/local/lib/python3.9/pickle.py", line 1537, in load_stack_global
+    self.append(self.find_class(module, name))
+  File "/usr/local/lib/python3.9/pickle.py", line 1579, in find_class
+    __import__(module, level=0)
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/__init__.py", line 11, in <module>
+    from .basic import Booster, Dataset, Sequence, register_logger
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/basic.py", line 9, in <module>
+    from .libpath import _LIB  # isort: skip
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/libpath.py", line 49, in <module>
+    _LIB = ctypes.cdll.LoadLibrary(_find_lib_path()[0])
+  File "/usr/local/lib/python3.9/ctypes/__init__.py", line 452, in LoadLibrary
+    return self._dlltype(name)
+  File "/usr/local/lib/python3.9/ctypes/__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: libgomp.so.1: cannot open shared object file: No such file or directory
+2025-04-27 09:42:05.174 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/server.py", line 7, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/processing.py", line 37, in <module>
+    model_mortgage = joblib.load('Tests/Boosting/calibrated_models/mortgage_model.pkl')
+  File "/usr/local/lib/python3.9/site-packages/joblib/numpy_pickle.py", line 658, in load
+    obj = _unpickle(fobj, filename, mmap_mode)
+  File "/usr/local/lib/python3.9/site-packages/joblib/numpy_pickle.py", line 577, in _unpickle
+    obj = unpickler.load()
+  File "/usr/local/lib/python3.9/pickle.py", line 1212, in load
+    dispatch[key[0]](self)
+  File "/usr/local/lib/python3.9/pickle.py", line 1537, in load_stack_global
+    self.append(self.find_class(module, name))
+  File "/usr/local/lib/python3.9/pickle.py", line 1579, in find_class
+    __import__(module, level=0)
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/__init__.py", line 11, in <module>
+    from .basic import Booster, Dataset, Sequence, register_logger
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/basic.py", line 9, in <module>
+    from .libpath import _LIB  # isort: skip
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/libpath.py", line 49, in <module>
+    _LIB = ctypes.cdll.LoadLibrary(_find_lib_path()[0])
+  File "/usr/local/lib/python3.9/ctypes/__init__.py", line 452, in LoadLibrary
+    return self._dlltype(name)
+  File "/usr/local/lib/python3.9/ctypes/__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: libgomp.so.1: cannot open shared object file: No such file or directory
+2025-04-27 09:42:43.703 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/server.py", line 7, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/processing.py", line 37, in <module>
+    model_mortgage = joblib.load('Tests/Boosting/calibrated_models/mortgage_model.pkl')
+  File "/usr/local/lib/python3.9/site-packages/joblib/numpy_pickle.py", line 658, in load
+    obj = _unpickle(fobj, filename, mmap_mode)
+  File "/usr/local/lib/python3.9/site-packages/joblib/numpy_pickle.py", line 577, in _unpickle
+    obj = unpickler.load()
+  File "/usr/local/lib/python3.9/pickle.py", line 1212, in load
+    dispatch[key[0]](self)
+  File "/usr/local/lib/python3.9/pickle.py", line 1537, in load_stack_global
+    self.append(self.find_class(module, name))
+  File "/usr/local/lib/python3.9/pickle.py", line 1579, in find_class
+    __import__(module, level=0)
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/__init__.py", line 11, in <module>
+    from .basic import Booster, Dataset, Sequence, register_logger
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/basic.py", line 9, in <module>
+    from .libpath import _LIB  # isort: skip
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/libpath.py", line 49, in <module>
+    _LIB = ctypes.cdll.LoadLibrary(_find_lib_path()[0])
+  File "/usr/local/lib/python3.9/ctypes/__init__.py", line 452, in LoadLibrary
+    return self._dlltype(name)
+  File "/usr/local/lib/python3.9/ctypes/__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: libgomp.so.1: cannot open shared object file: No such file or directory
+2025-04-27 09:43:55.214 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/server.py", line 7, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/processing.py", line 37, in <module>
+    model_mortgage = joblib.load('Tests/Boosting/calibrated_models/mortgage_model.pkl')
+  File "/usr/local/lib/python3.9/site-packages/joblib/numpy_pickle.py", line 658, in load
+    obj = _unpickle(fobj, filename, mmap_mode)
+  File "/usr/local/lib/python3.9/site-packages/joblib/numpy_pickle.py", line 577, in _unpickle
+    obj = unpickler.load()
+  File "/usr/local/lib/python3.9/pickle.py", line 1212, in load
+    dispatch[key[0]](self)
+  File "/usr/local/lib/python3.9/pickle.py", line 1537, in load_stack_global
+    self.append(self.find_class(module, name))
+  File "/usr/local/lib/python3.9/pickle.py", line 1579, in find_class
+    __import__(module, level=0)
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/__init__.py", line 11, in <module>
+    from .basic import Booster, Dataset, Sequence, register_logger
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/basic.py", line 9, in <module>
+    from .libpath import _LIB  # isort: skip
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/libpath.py", line 49, in <module>
+    _LIB = ctypes.cdll.LoadLibrary(_find_lib_path()[0])
+  File "/usr/local/lib/python3.9/ctypes/__init__.py", line 452, in LoadLibrary
+    return self._dlltype(name)
+  File "/usr/local/lib/python3.9/ctypes/__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: libgomp.so.1: cannot open shared object file: No such file or directory
+2025-04-27 09:43:57.543 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/server.py", line 7, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/processing.py", line 9, in <module>
+    import lightgbm
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/__init__.py", line 11, in <module>
+    from .basic import Booster, Dataset, Sequence, register_logger
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/basic.py", line 9, in <module>
+    from .libpath import _LIB  # isort: skip
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/libpath.py", line 49, in <module>
+    _LIB = ctypes.cdll.LoadLibrary(_find_lib_path()[0])
+  File "/usr/local/lib/python3.9/ctypes/__init__.py", line 452, in LoadLibrary
+    return self._dlltype(name)
+  File "/usr/local/lib/python3.9/ctypes/__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: libgomp.so.1: cannot open shared object file: No such file or directory
+2025-04-27 09:44:10.108 Uncaught app execution
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 121, in exec_func_with_error_handling
+    result = func()
+  File "/usr/local/lib/python3.9/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 640, in code_to_exec
+    exec(code, module.__dict__)
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/server.py", line 7, in <module>
+    import processing
+  File "/sklonnost_klientov_k_produktam/source/Site/scripts/processing.py", line 9, in <module>
+    import lightgbm
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/__init__.py", line 11, in <module>
+    from .basic import Booster, Dataset, Sequence, register_logger
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/basic.py", line 9, in <module>
+    from .libpath import _LIB  # isort: skip
+  File "/usr/local/lib/python3.9/site-packages/lightgbm/libpath.py", line 49, in <module>
+    _LIB = ctypes.cdll.LoadLibrary(_find_lib_path()[0])
+  File "/usr/local/lib/python3.9/ctypes/__init__.py", line 452, in LoadLibrary
+    return self._dlltype(name)
+  File "/usr/local/lib/python3.9/ctypes/__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: libgomp.so.1: cannot open shared object file: No such file or directory
+systemctl_container
+systemctl_container
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.17.0.2:8501
+  External URL: http://185.204.3.240:8501
+
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator LabelEncoder from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator _SigmoidCalibration from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator CalibratedClassifierCV from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator ExtraTreeClassifier from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator ExtraTreesClassifier from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+2025-04-27 09:49:24.940 Uncaught app execution
+NameError: name 'df' is not defined
+2025-04-27 09:49:29.245 Uncaught app execution
+NameError: name 'df' is not defined
+2025-04-27 09:49:40.351 Uncaught app execution
+NameError: name 'df' is not defined
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator LabelEncoder from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator _SigmoidCalibration from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator CalibratedClassifierCV from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator ExtraTreeClassifier from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator ExtraTreesClassifier from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+Welcome to the CBC MILP Solver 
+Version: Trunk
+Build Date: Oct 24 2021 
+
+Starting solution of the Linear programming relaxation problem using Primal Simplex
+
+Coin0506I Presolve 2674 (-1) rows, 8016 (-16788) columns and 13360 (-36248) elements
+Clp1000I sum of infeasibilities 0 - average 0, 2883 fixed columns
+Coin0506I Presolve 2463 (-211) rows, 5133 (-2883) columns and 10055 (-3305) elements
+Clp0029I End of values pass after 5133 iterations
+Clp0014I Perturbing problem by 0.001% of 1.0918905 - largest nonzero change 2.9576128e-05 ( 0.0014788064%) - largest zero change 2.9522154e-05
+Clp0000I Optimal - objective value 18130.808
+Clp0000I Optimal - objective value 18130.808
+Coin0511I After Postsolve, objective 18130.808, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0014I Perturbing problem by 0.001% of 1.0739009 - largest nonzero change 2.9906324e-05 ( 0.0014953162%) - largest zero change 2.982246e-05
+Clp0000I Optimal - objective value 51399.538
+Clp0000I Optimal - objective value 51399.538
+Clp0000I Optimal - objective value 51399.538
+Coin0511I After Postsolve, objective 51399.538, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0032I Optimal objective 51399.53811 - 0 iterations time 0.542, Presolve 0.02, Idiot 0.52
+
+Starting MIP optimization
+/usr/local/lib/python3.9/site-packages/numpy/lib/_histograms_impl.py:895: RuntimeWarning: invalid value encountered in divide
+  return n/db/n.sum(), bin_edges
+/usr/local/lib/python3.9/site-packages/numpy/lib/_histograms_impl.py:895: RuntimeWarning: invalid value encountered in divide
+  return n/db/n.sum(), bin_edges
+Cgl0008I 2672 inequality constraints converted to equality constraints
+Cgl0004I processed model has 2674 rows, 8016 columns (8016 integer (8016 of which binary)) and 13360 elements
+Coin3009W Conflict graph built in 0.007 seconds, density: 0.012%
+Cgl0015I Clique Strengthening extended 0 cliques, 0 were dominated
+Cbc0045I Nauty did not find any useful orbits in time 0.370496
+Cbc0038I Initial state - 0 integers unsatisfied sum - 0
+Cbc0038I Solution found of -51399.5
+Cbc0038I Before mini branch and bound, 8016 integers at bound fixed and 0 continuous
+Cbc0038I Mini branch and bound did not improve solution (1.64 seconds)
+Cbc0038I After 1.64 seconds - Feasibility pump exiting with objective of -51399.5 - took 0.02 seconds
+Cbc0012I Integer solution of -51399.538 found by feasibility pump after 0 iterations and 0 nodes (1.65 seconds)
+Cbc0001I Search completed - best objective -51399.53810559731, took 0 iterations and 0 nodes (1.66 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Total time (CPU seconds):       1.60   (Wallclock seconds):       1.70
+
+Starting solution of the Linear programming relaxation problem using Primal Simplex
+
+Coin0506I Presolve 2674 (-1) rows, 8016 (-16788) columns and 13360 (-36248) elements
+Clp1000I sum of infeasibilities 0 - average 0, 2883 fixed columns
+Coin0506I Presolve 2463 (-211) rows, 5133 (-2883) columns and 10055 (-3305) elements
+Clp0006I 0  Obj 12051.231 Dual inf 9872628 (5133)
+Clp0029I End of values pass after 5133 iterations
+Clp0014I Perturbing problem by 0.001% of 1.0918905 - largest nonzero change 2.9576128e-05 ( 0.0014788064%) - largest zero change 2.9522154e-05
+Clp0000I Optimal - objective value 18130.808
+Clp0000I Optimal - objective value 18130.808
+Coin0511I After Postsolve, objective 18130.808, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0006I 0  Obj 18130.808 Dual inf 49231.988 (2686)
+Clp0014I Perturbing problem by 0.001% of 1.0739009 - largest nonzero change 2.9906324e-05 ( 0.0014953162%) - largest zero change 2.982246e-05
+Clp0000I Optimal - objective value 51399.538
+Clp0000I Optimal - objective value 51399.538
+Clp0000I Optimal - objective value 51399.538
+Coin0511I After Postsolve, objective 51399.538, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0032I Optimal objective 51399.53811 - 0 iterations time 0.572, Presolve 0.03, Idiot 0.54
+
+Starting MIP optimization
+/usr/local/lib/python3.9/site-packages/numpy/lib/_histograms_impl.py:895: RuntimeWarning: invalid value encountered in divide
+  return n/db/n.sum(), bin_edges
+/usr/local/lib/python3.9/site-packages/numpy/lib/_histograms_impl.py:895: RuntimeWarning: invalid value encountered in divide
+  return n/db/n.sum(), bin_edges
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator LabelEncoder from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator _SigmoidCalibration from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator CalibratedClassifierCV from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator ExtraTreeClassifier from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator ExtraTreesClassifier from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+Cgl0008I 2672 inequality constraints converted to equality constraints
+Cgl0004I processed model has 2674 rows, 8016 columns (8016 integer (8016 of which binary)) and 13360 elements
+Coin3009W Conflict graph built in 0.009 seconds, density: 0.012%
+Cgl0015I Clique Strengthening extended 0 cliques, 0 were dominated
+Cbc0045I Nauty did not find any useful orbits in time 0.421632
+Cbc0038I Initial state - 0 integers unsatisfied sum - 0
+Cbc0038I Solution found of -51399.5
+Cbc0038I Before mini branch and bound, 8016 integers at bound fixed and 0 continuous
+Cbc0038I Mini branch and bound did not improve solution (1.64 seconds)
+Cbc0038I After 1.65 seconds - Feasibility pump exiting with objective of -51399.5 - took 0.02 seconds
+Cbc0012I Integer solution of -51399.538 found by feasibility pump after 0 iterations and 0 nodes (1.65 seconds)
+Cbc0001I Search completed - best objective -51399.53810559731, took 0 iterations and 0 nodes (1.66 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Total time (CPU seconds):       1.64   (Wallclock seconds):       1.70
+
+Starting solution of the Linear programming relaxation problem using Primal Simplex
+
+Coin0506I Presolve 2674 (-1) rows, 8016 (-16788) columns and 13360 (-36248) elements
+Clp1000I sum of infeasibilities 0 - average 0, 2883 fixed columns
+Coin0506I Presolve 2463 (-211) rows, 5133 (-2883) columns and 10055 (-3305) elements
+Clp0006I 0  Obj 12051.231 Dual inf 9872628 (5133)
+Clp0029I End of values pass after 5133 iterations
+Clp0014I Perturbing problem by 0.001% of 1.0918905 - largest nonzero change 2.9576128e-05 ( 0.0014788064%) - largest zero change 2.9522154e-05
+Clp0000I Optimal - objective value 18130.808
+Clp0000I Optimal - objective value 18130.808
+Coin0511I After Postsolve, objective 18130.808, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0006I 0  Obj 18130.808 Dual inf 49231.988 (2686)
+Clp0014I Perturbing problem by 0.001% of 1.0739009 - largest nonzero change 2.9906324e-05 ( 0.0014953162%) - largest zero change 2.982246e-05
+Clp0000I Optimal - objective value 51399.538
+Clp0000I Optimal - objective value 51399.538
+Clp0000I Optimal - objective value 51399.538
+Coin0511I After Postsolve, objective 51399.538, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0032I Optimal objective 51399.53811 - 0 iterations time 0.572, Presolve 0.02, Idiot 0.54
+
+Starting MIP optimization
+/usr/local/lib/python3.9/site-packages/numpy/lib/_histograms_impl.py:895: RuntimeWarning: invalid value encountered in divide
+  return n/db/n.sum(), bin_edges
+/usr/local/lib/python3.9/site-packages/numpy/lib/_histograms_impl.py:895: RuntimeWarning: invalid value encountered in divide
+  return n/db/n.sum(), bin_edges
+Cgl0008I 2672 inequality constraints converted to equality constraints
+Cgl0004I processed model has 2674 rows, 8016 columns (8016 integer (8016 of which binary)) and 13360 elements
+Coin3009W Conflict graph built in 0.006 seconds, density: 0.012%
+Cgl0015I Clique Strengthening extended 0 cliques, 0 were dominated
+Cbc0045I Nauty did not find any useful orbits in time 0.381094
+Cbc0038I Initial state - 0 integers unsatisfied sum - 0
+Cbc0038I Solution found of -51399.5
+Cbc0038I Before mini branch and bound, 8016 integers at bound fixed and 0 continuous
+Cbc0038I Mini branch and bound did not improve solution (1.62 seconds)
+Cbc0038I After 1.62 seconds - Feasibility pump exiting with objective of -51399.5 - took 0.03 seconds
+Cbc0012I Integer solution of -51399.538 found by feasibility pump after 0 iterations and 0 nodes (1.62 seconds)
+Cbc0001I Search completed - best objective -51399.53810559731, took 0 iterations and 0 nodes (1.63 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Total time (CPU seconds):       1.63   (Wallclock seconds):       1.67
+
+Starting solution of the Linear programming relaxation problem using Primal Simplex
+
+Coin0506I Presolve 2674 (-1) rows, 8016 (-16788) columns and 13360 (-36248) elements
+Clp1000I sum of infeasibilities 0 - average 0, 3206 fixed columns
+Coin0506I Presolve 2140 (-534) rows, 4810 (-3206) columns and 9086 (-4274) elements
+Clp0006I 0  Obj 11760.943 Dual inf 9263118.5 (4810)
+Clp0029I End of values pass after 4810 iterations
+Clp0014I Perturbing problem by 0.001% of 1.0964029 - largest nonzero change 2.9957356e-05 ( 0.0014978678%) - largest zero change 2.8682824e-05
+Clp0000I Optimal - objective value 17540.053
+Clp0000I Optimal - objective value 17540.053
+Coin0511I After Postsolve, objective 17540.053, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0006I 0  Obj 17540.053 Dual inf 49567.741 (2716)
+Clp0014I Perturbing problem by 0.001% of 1.0720299 - largest nonzero change 2.9522154e-05 ( 0.0014761077%) - largest zero change 2.982246e-05
+Clp0000I Optimal - objective value 51399.538
+Clp0000I Optimal - objective value 51399.538
+Clp0000I Optimal - objective value 51399.538
+Coin0511I After Postsolve, objective 51399.538, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0032I Optimal objective 51399.53811 - 0 iterations time 0.512, Presolve 0.02, Idiot 0.48
+
+Starting MIP optimization
+/usr/local/lib/python3.9/site-packages/numpy/lib/_histograms_impl.py:895: RuntimeWarning: invalid value encountered in divide
+  return n/db/n.sum(), bin_edges
+/usr/local/lib/python3.9/site-packages/numpy/lib/_histograms_impl.py:895: RuntimeWarning: invalid value encountered in divide
+  return n/db/n.sum(), bin_edges
+Cgl0008I 2672 inequality constraints converted to equality constraints
+Cgl0004I processed model has 2674 rows, 8016 columns (8016 integer (8016 of which binary)) and 13360 elements
+Coin3009W Conflict graph built in 0.005 seconds, density: 0.012%
+Cgl0015I Clique Strengthening extended 0 cliques, 0 were dominated
+Cbc0045I Nauty did not find any useful orbits in time 0.40669
+Cbc0038I Initial state - 0 integers unsatisfied sum - 0
+Cbc0038I Solution found of -51399.5
+Cbc0038I Before mini branch and bound, 8016 integers at bound fixed and 0 continuous
+Cbc0038I Mini branch and bound did not improve solution (1.65 seconds)
+Cbc0038I After 1.65 seconds - Feasibility pump exiting with objective of -51399.5 - took 0.03 seconds
+Cbc0012I Integer solution of -51399.538 found by feasibility pump after 0 iterations and 0 nodes (1.65 seconds)
+Cbc0001I Search completed - best objective -51399.53810559733, took 0 iterations and 0 nodes (1.66 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Total time (CPU seconds):       1.70   (Wallclock seconds):       1.70
+
+Starting solution of the Linear programming relaxation problem using Primal Simplex
+
+Coin0506I Presolve 2674 (-1) rows, 8016 (-16788) columns and 13360 (-36248) elements
+Clp1000I sum of infeasibilities 0 - average 0, 2883 fixed columns
+Coin0506I Presolve 2463 (-211) rows, 5133 (-2883) columns and 10055 (-3305) elements
+Clp0006I 0  Obj 12051.231 Dual inf 9872628 (5133)
+Clp0029I End of values pass after 5133 iterations
+Clp0014I Perturbing problem by 0.001% of 1.0918905 - largest nonzero change 2.9576128e-05 ( 0.0014788064%) - largest zero change 2.9522154e-05
+Clp0000I Optimal - objective value 18130.808
+Clp0000I Optimal - objective value 18130.808
+Coin0511I After Postsolve, objective 18130.808, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0006I 0  Obj 18130.808 Dual inf 49231.988 (2686)
+Clp0014I Perturbing problem by 0.001% of 1.0739009 - largest nonzero change 2.9906324e-05 ( 0.0014953162%) - largest zero change 2.982246e-05
+Clp0000I Optimal - objective value 51399.538
+Clp0000I Optimal - objective value 51399.538
+Clp0000I Optimal - objective value 51399.538
+Coin0511I After Postsolve, objective 51399.538, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0032I Optimal objective 51399.53811 - 0 iterations time 0.592, Presolve 0.02, Idiot 0.57
+
+Starting MIP optimization
+/usr/local/lib/python3.9/site-packages/numpy/lib/_histograms_impl.py:895: RuntimeWarning: invalid value encountered in divide
+  return n/db/n.sum(), bin_edges
+/usr/local/lib/python3.9/site-packages/numpy/lib/_histograms_impl.py:895: RuntimeWarning: invalid value encountered in divide
+  return n/db/n.sum(), bin_edges
+systemctl_container
+systemctl_container
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.17.0.2:8501
+  External URL: http://185.204.3.240:8501
+
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator LabelEncoder from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator _SigmoidCalibration from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator CalibratedClassifierCV from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator ExtraTreeClassifier from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator ExtraTreesClassifier from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+Welcome to the CBC MILP Solver 
+Version: Trunk
+Build Date: Oct 24 2021 
+
+Starting solution of the Linear programming relaxation problem using Primal Simplex
+
+Coin0506I Presolve 2674 (-1) rows, 8016 (-16788) columns and 13360 (-36248) elements
+Clp1000I sum of infeasibilities 0 - average 0, 2883 fixed columns
+Coin0506I Presolve 2463 (-211) rows, 5133 (-2883) columns and 10055 (-3305) elements
+Clp0029I End of values pass after 5133 iterations
+Clp0014I Perturbing problem by 0.001% of 1.0918905 - largest nonzero change 2.9576128e-05 ( 0.0014788064%) - largest zero change 2.9522154e-05
+Clp0000I Optimal - objective value 18130.808
+Clp0000I Optimal - objective value 18130.808
+Coin0511I After Postsolve, objective 18130.808, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0014I Perturbing problem by 0.001% of 1.0739009 - largest nonzero change 2.9906324e-05 ( 0.0014953162%) - largest zero change 2.982246e-05
+Clp0006I 4213  Obj 51399.547
+Clp0000I Optimal - objective value 51399.538
+Clp0000I Optimal - objective value 51399.538
+Clp0000I Optimal - objective value 51399.538
+Coin0511I After Postsolve, objective 51399.538, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0032I Optimal objective 51399.53811 - 0 iterations time 0.712, Presolve 0.03, Idiot 0.67
+
+Starting MIP optimization
+/usr/local/lib/python3.9/site-packages/numpy/lib/_histograms_impl.py:895: RuntimeWarning: invalid value encountered in divide
+  return n/db/n.sum(), bin_edges
+/usr/local/lib/python3.9/site-packages/numpy/lib/_histograms_impl.py:895: RuntimeWarning: invalid value encountered in divide
+  return n/db/n.sum(), bin_edges
+Cgl0008I 2672 inequality constraints converted to equality constraints
+Cgl0004I processed model has 2674 rows, 8016 columns (8016 integer (8016 of which binary)) and 13360 elements
+Coin3009W Conflict graph built in 0.007 seconds, density: 0.012%
+Cgl0015I Clique Strengthening extended 0 cliques, 0 were dominated
+Cbc0045I Nauty did not find any useful orbits in time 0.416121
+Cbc0038I Initial state - 0 integers unsatisfied sum - 0
+Cbc0038I Solution found of -51399.5
+Cbc0038I Before mini branch and bound, 8016 integers at bound fixed and 0 continuous
+Cbc0038I Mini branch and bound did not improve solution (1.77 seconds)
+Cbc0038I After 1.77 seconds - Feasibility pump exiting with objective of -51399.5 - took 0.02 seconds
+Cbc0012I Integer solution of -51399.538 found by feasibility pump after 0 iterations and 0 nodes (1.77 seconds)
+Cbc0001I Search completed - best objective -51399.53810559731, took 0 iterations and 0 nodes (1.78 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Total time (CPU seconds):       1.71   (Wallclock seconds):       1.82
+
+Starting solution of the Linear programming relaxation problem using Primal Simplex
+
+Coin0506I Presolve 2674 (-1) rows, 8016 (-16788) columns and 13360 (-36248) elements
+Clp1000I sum of infeasibilities 0 - average 0, 2883 fixed columns
+Coin0506I Presolve 2463 (-211) rows, 5133 (-2883) columns and 10055 (-3305) elements
+Clp0006I 0  Obj 12051.231 Dual inf 9872628 (5133)
+Clp0029I End of values pass after 5133 iterations
+Clp0014I Perturbing problem by 0.001% of 1.0918905 - largest nonzero change 2.9576128e-05 ( 0.0014788064%) - largest zero change 2.9522154e-05
+Clp0000I Optimal - objective value 18130.808
+Clp0000I Optimal - objective value 18130.808
+Coin0511I After Postsolve, objective 18130.808, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0006I 0  Obj 18130.808 Dual inf 49231.988 (2686)
+Clp0014I Perturbing problem by 0.001% of 1.0739009 - largest nonzero change 2.9906324e-05 ( 0.0014953162%) - largest zero change 2.982246e-05
+Clp0000I Optimal - objective value 51399.538
+Clp0000I Optimal - objective value 51399.538
+Clp0000I Optimal - objective value 51399.538
+Coin0511I After Postsolve, objective 51399.538, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0032I Optimal objective 51399.53811 - 0 iterations time 0.542, Presolve 0.03, Idiot 0.51
+
+Starting MIP optimization
+/usr/local/lib/python3.9/site-packages/numpy/lib/_histograms_impl.py:895: RuntimeWarning: invalid value encountered in divide
+  return n/db/n.sum(), bin_edges
+/usr/local/lib/python3.9/site-packages/numpy/lib/_histograms_impl.py:895: RuntimeWarning: invalid value encountered in divide
+  return n/db/n.sum(), bin_edges
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator LabelEncoder from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator _SigmoidCalibration from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator CalibratedClassifierCV from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator ExtraTreeClassifier from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator ExtraTreesClassifier from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+2025-04-27 10:06:51.296 Uncaught app execution
+KeyError: 'calls'
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator LabelEncoder from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator _SigmoidCalibration from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator CalibratedClassifierCV from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator ExtraTreeClassifier from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator ExtraTreesClassifier from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+Cgl0008I 2672 inequality constraints converted to equality constraints
+Cgl0004I processed model has 2674 rows, 8016 columns (8016 integer (8016 of which binary)) and 13360 elements
+Coin3009W Conflict graph built in 0.006 seconds, density: 0.012%
+Cgl0015I Clique Strengthening extended 0 cliques, 0 were dominated
+Cbc0045I Nauty did not find any useful orbits in time 0.369578
+Cbc0038I Initial state - 0 integers unsatisfied sum - 0
+Cbc0038I Solution found of -51399.5
+Cbc0038I Before mini branch and bound, 8016 integers at bound fixed and 0 continuous
+Cbc0038I Mini branch and bound did not improve solution (1.56 seconds)
+Cbc0038I After 1.56 seconds - Feasibility pump exiting with objective of -51399.5 - took 0.02 seconds
+Cbc0012I Integer solution of -51399.538 found by feasibility pump after 0 iterations and 0 nodes (1.56 seconds)
+Cbc0001I Search completed - best objective -51399.53810559731, took 0 iterations and 0 nodes (1.57 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Total time (CPU seconds):       1.60   (Wallclock seconds):       1.61
+
+Starting solution of the Linear programming relaxation problem using Primal Simplex
+
+Coin0506I Presolve 2674 (-1) rows, 8016 (-16788) columns and 13360 (-36248) elements
+Clp1000I sum of infeasibilities 0 - average 0, 2883 fixed columns
+Coin0506I Presolve 2463 (-211) rows, 5133 (-2883) columns and 10055 (-3305) elements
+Clp0006I 0  Obj 12051.231 Dual inf 9872628 (5133)
+Clp0029I End of values pass after 5133 iterations
+Clp0014I Perturbing problem by 0.001% of 1.0918905 - largest nonzero change 2.9576128e-05 ( 0.0014788064%) - largest zero change 2.9522154e-05
+Clp0000I Optimal - objective value 18130.808
+Clp0000I Optimal - objective value 18130.808
+Coin0511I After Postsolve, objective 18130.808, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0006I 0  Obj 18130.808 Dual inf 49231.988 (2686)
+Clp0014I Perturbing problem by 0.001% of 1.0739009 - largest nonzero change 2.9906324e-05 ( 0.0014953162%) - largest zero change 2.982246e-05
+Clp0000I Optimal - objective value 51399.538
+Clp0000I Optimal - objective value 51399.538
+Clp0000I Optimal - objective value 51399.538
+Coin0511I After Postsolve, objective 51399.538, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0032I Optimal objective 51399.53811 - 0 iterations time 0.592, Presolve 0.05, Idiot 0.54
+
+Starting MIP optimization
+/usr/local/lib/python3.9/site-packages/numpy/lib/_histograms_impl.py:895: RuntimeWarning: invalid value encountered in divide
+  return n/db/n.sum(), bin_edges
+/usr/local/lib/python3.9/site-packages/numpy/lib/_histograms_impl.py:895: RuntimeWarning: invalid value encountered in divide
+  return n/db/n.sum(), bin_edges
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator LabelEncoder from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator _SigmoidCalibration from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator CalibratedClassifierCV from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator ExtraTreeClassifier from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator ExtraTreesClassifier from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+Cgl0008I 2672 inequality constraints converted to equality constraints
+Cgl0004I processed model has 2674 rows, 8016 columns (8016 integer (8016 of which binary)) and 13360 elements
+Coin3009W Conflict graph built in 0.009 seconds, density: 0.012%
+Cgl0015I Clique Strengthening extended 0 cliques, 0 were dominated
+Cbc0045I Nauty did not find any useful orbits in time 0.386761
+Cbc0038I Initial state - 0 integers unsatisfied sum - 0
+Cbc0038I Solution found of -51399.5
+Cbc0038I Before mini branch and bound, 8016 integers at bound fixed and 0 continuous
+Cbc0038I Mini branch and bound did not improve solution (1.72 seconds)
+Cbc0038I After 1.72 seconds - Feasibility pump exiting with objective of -51399.5 - took 0.04 seconds
+Cbc0012I Integer solution of -51399.538 found by feasibility pump after 0 iterations and 0 nodes (1.72 seconds)
+Cbc0001I Search completed - best objective -51399.53810559731, took 0 iterations and 0 nodes (1.73 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Total time (CPU seconds):       1.71   (Wallclock seconds):       1.80
+
+Starting solution of the Linear programming relaxation problem using Primal Simplex
+
+Coin0506I Presolve 2674 (-1) rows, 8016 (-16788) columns and 13360 (-36248) elements
+Clp1000I sum of infeasibilities 0 - average 0, 2883 fixed columns
+Coin0506I Presolve 2463 (-211) rows, 5133 (-2883) columns and 10055 (-3305) elements
+Clp0006I 0  Obj 12051.231 Dual inf 9872628 (5133)
+Clp0029I End of values pass after 5133 iterations
+Clp0014I Perturbing problem by 0.001% of 1.0918905 - largest nonzero change 2.9576128e-05 ( 0.0014788064%) - largest zero change 2.9522154e-05
+Clp0000I Optimal - objective value 18130.808
+Clp0000I Optimal - objective value 18130.808
+Coin0511I After Postsolve, objective 18130.808, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0006I 0  Obj 18130.808 Dual inf 49231.988 (2686)
+Clp0014I Perturbing problem by 0.001% of 1.0739009 - largest nonzero change 2.9906324e-05 ( 0.0014953162%) - largest zero change 2.982246e-05
+Clp0000I Optimal - objective value 51399.538
+Clp0000I Optimal - objective value 51399.538
+Clp0000I Optimal - objective value 51399.538
+Coin0511I After Postsolve, objective 51399.538, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0032I Optimal objective 51399.53811 - 0 iterations time 0.552, Presolve 0.03, Idiot 0.52
+
+Starting MIP optimization
+/usr/local/lib/python3.9/site-packages/numpy/lib/_histograms_impl.py:895: RuntimeWarning: invalid value encountered in divide
+  return n/db/n.sum(), bin_edges
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator LabelEncoder from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator _SigmoidCalibration from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator CalibratedClassifierCV from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator ExtraTreeClassifier from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator ExtraTreesClassifier from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+Cgl0008I 2672 inequality constraints converted to equality constraints
+Cgl0004I processed model has 2674 rows, 8016 columns (8016 integer (8016 of which binary)) and 13360 elements
+Coin3009W Conflict graph built in 0.009 seconds, density: 0.012%
+Cgl0015I Clique Strengthening extended 0 cliques, 0 were dominated
+Cbc0045I Nauty did not find any useful orbits in time 0.371152
+Cbc0038I Initial state - 0 integers unsatisfied sum - 0
+Cbc0038I Solution found of -51399.5
+Cbc0038I Before mini branch and bound, 8016 integers at bound fixed and 0 continuous
+Cbc0038I Mini branch and bound did not improve solution (1.62 seconds)
+Cbc0038I After 1.62 seconds - Feasibility pump exiting with objective of -51399.5 - took 0.03 seconds
+Cbc0012I Integer solution of -51399.538 found by feasibility pump after 0 iterations and 0 nodes (1.62 seconds)
+Cbc0001I Search completed - best objective -51399.53810559731, took 0 iterations and 0 nodes (1.63 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Total time (CPU seconds):       1.64   (Wallclock seconds):       1.67
+
+Starting solution of the Linear programming relaxation problem using Primal Simplex
+
+Coin0506I Presolve 2674 (-1) rows, 8016 (-16788) columns and 13360 (-36248) elements
+Clp1000I sum of infeasibilities 0 - average 0, 2883 fixed columns
+Coin0506I Presolve 2463 (-211) rows, 5133 (-2883) columns and 10055 (-3305) elements
+Clp0006I 0  Obj 12051.231 Dual inf 9872628 (5133)
+Clp0029I End of values pass after 5133 iterations
+Clp0014I Perturbing problem by 0.001% of 1.0918905 - largest nonzero change 2.9576128e-05 ( 0.0014788064%) - largest zero change 2.9522154e-05
+Clp0000I Optimal - objective value 18130.808
+Clp0000I Optimal - objective value 18130.808
+Coin0511I After Postsolve, objective 18130.808, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0006I 0  Obj 18130.808 Dual inf 49231.988 (2686)
+Clp0014I Perturbing problem by 0.001% of 1.0739009 - largest nonzero change 2.9906324e-05 ( 0.0014953162%) - largest zero change 2.982246e-05
+Clp0000I Optimal - objective value 51399.538
+Clp0000I Optimal - objective value 51399.538
+Clp0000I Optimal - objective value 51399.538
+Coin0511I After Postsolve, objective 51399.538, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0032I Optimal objective 51399.53811 - 0 iterations time 0.552, Presolve 0.02, Idiot 0.52
+
+Starting MIP optimization
+2025-04-27 10:08:34.599 Uncaught app execution
+KeyError: 'email'
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator LabelEncoder from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator _SigmoidCalibration from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator CalibratedClassifierCV from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator ExtraTreeClassifier from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator ExtraTreesClassifier from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+Cgl0008I 2672 inequality constraints converted to equality constraints
+Cgl0004I processed model has 2674 rows, 8016 columns (8016 integer (8016 of which binary)) and 13360 elements
+Coin3009W Conflict graph built in 0.005 seconds, density: 0.012%
+Cgl0015I Clique Strengthening extended 0 cliques, 0 were dominated
+Cbc0045I Nauty did not find any useful orbits in time 0.371343
+Cbc0038I Initial state - 0 integers unsatisfied sum - 0
+Cbc0038I Solution found of -51399.5
+Cbc0038I Before mini branch and bound, 8016 integers at bound fixed and 0 continuous
+Cbc0038I Mini branch and bound did not improve solution (1.54 seconds)
+Cbc0038I After 1.54 seconds - Feasibility pump exiting with objective of -51399.5 - took 0.03 seconds
+Cbc0012I Integer solution of -51399.538 found by feasibility pump after 0 iterations and 0 nodes (1.55 seconds)
+Cbc0001I Search completed - best objective -51399.53810559731, took 0 iterations and 0 nodes (1.55 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Total time (CPU seconds):       1.60   (Wallclock seconds):       1.60
+
+Starting solution of the Linear programming relaxation problem using Primal Simplex
+
+Coin0506I Presolve 2674 (-1) rows, 8016 (-16788) columns and 13360 (-36248) elements
+Clp1000I sum of infeasibilities 0 - average 0, 2883 fixed columns
+Coin0506I Presolve 2463 (-211) rows, 5133 (-2883) columns and 10055 (-3305) elements
+Clp0006I 0  Obj 12051.231 Dual inf 9872628 (5133)
+Clp0029I End of values pass after 5133 iterations
+Clp0014I Perturbing problem by 0.001% of 1.0918905 - largest nonzero change 2.9576128e-05 ( 0.0014788064%) - largest zero change 2.9522154e-05
+Clp0000I Optimal - objective value 18130.808
+Clp0000I Optimal - objective value 18130.808
+Coin0511I After Postsolve, objective 18130.808, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0006I 0  Obj 18130.808 Dual inf 49231.988 (2686)
+Clp0014I Perturbing problem by 0.001% of 1.0739009 - largest nonzero change 2.9906324e-05 ( 0.0014953162%) - largest zero change 2.982246e-05
+Clp0000I Optimal - objective value 51399.538
+Clp0000I Optimal - objective value 51399.538
+Clp0000I Optimal - objective value 51399.538
+Coin0511I After Postsolve, objective 51399.538, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0032I Optimal objective 51399.53811 - 0 iterations time 0.562, Presolve 0.02, Idiot 0.54
+
+Starting MIP optimization
+Cgl0008I 2672 inequality constraints converted to equality constraints
+Cgl0004I processed model has 2674 rows, 8016 columns (8016 integer (8016 of which binary)) and 13360 elements
+Coin3009W Conflict graph built in 0.008 seconds, density: 0.012%
+Cgl0015I Clique Strengthening extended 0 cliques, 0 were dominated
+Cbc0045I Nauty did not find any useful orbits in time 0.396364
+Cbc0038I Initial state - 0 integers unsatisfied sum - 0
+Cbc0038I Solution found of -51399.5
+Cbc0038I Before mini branch and bound, 8016 integers at bound fixed and 0 continuous
+Cbc0038I Mini branch and bound did not improve solution (1.59 seconds)
+Cbc0038I After 1.59 seconds - Feasibility pump exiting with objective of -51399.5 - took 0.02 seconds
+Cbc0012I Integer solution of -51399.538 found by feasibility pump after 0 iterations and 0 nodes (1.59 seconds)
+Cbc0001I Search completed - best objective -51399.53810559731, took 0 iterations and 0 nodes (1.60 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Total time (CPU seconds):       1.64   (Wallclock seconds):       1.64
+
+Starting solution of the Linear programming relaxation problem using Primal Simplex
+
+Coin0506I Presolve 2674 (-1) rows, 8016 (-16788) columns and 13360 (-36248) elements
+Clp1000I sum of infeasibilities 0 - average 0, 2883 fixed columns
+Coin0506I Presolve 2463 (-211) rows, 5133 (-2883) columns and 10055 (-3305) elements
+Clp0006I 0  Obj 12051.231 Dual inf 9872628 (5133)
+Clp0029I End of values pass after 5133 iterations
+Clp0014I Perturbing problem by 0.001% of 1.0918905 - largest nonzero change 2.9576128e-05 ( 0.0014788064%) - largest zero change 2.9522154e-05
+Clp0000I Optimal - objective value 18130.808
+Clp0000I Optimal - objective value 18130.808
+Coin0511I After Postsolve, objective 18130.808, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0006I 0  Obj 18130.808 Dual inf 49231.988 (2686)
+Clp0014I Perturbing problem by 0.001% of 1.0739009 - largest nonzero change 2.9906324e-05 ( 0.0014953162%) - largest zero change 2.982246e-05
+Clp0000I Optimal - objective value 51399.538
+Clp0000I Optimal - objective value 51399.538
+Clp0000I Optimal - objective value 51399.538
+Coin0511I After Postsolve, objective 51399.538, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0032I Optimal objective 51399.53811 - 0 iterations time 0.662, Presolve 0.03, Idiot 0.63
+
+Starting MIP optimization
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator LabelEncoder from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator _SigmoidCalibration from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator CalibratedClassifierCV from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator ExtraTreeClassifier from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator ExtraTreesClassifier from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+Cgl0008I 2672 inequality constraints converted to equality constraints
+Cgl0004I processed model has 2674 rows, 8016 columns (8016 integer (8016 of which binary)) and 13360 elements
+Coin3009W Conflict graph built in 0.007 seconds, density: 0.012%
+Cgl0015I Clique Strengthening extended 0 cliques, 0 were dominated
+Cbc0045I Nauty did not find any useful orbits in time 0.371976
+Cbc0038I Initial state - 0 integers unsatisfied sum - 0
+Cbc0038I Solution found of -51399.5
+Cbc0038I Before mini branch and bound, 8016 integers at bound fixed and 0 continuous
+Cbc0038I Mini branch and bound did not improve solution (1.56 seconds)
+Cbc0038I After 1.56 seconds - Feasibility pump exiting with objective of -51399.5 - took 0.03 seconds
+Cbc0012I Integer solution of -51399.538 found by feasibility pump after 0 iterations and 0 nodes (1.57 seconds)
+Cbc0001I Search completed - best objective -51399.53810559731, took 0 iterations and 0 nodes (1.57 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Total time (CPU seconds):       1.61   (Wallclock seconds):       1.61
+
+Starting solution of the Linear programming relaxation problem using Primal Simplex
+
+Coin0506I Presolve 2674 (-1) rows, 8016 (-16788) columns and 13360 (-36248) elements
+Clp1000I sum of infeasibilities 0 - average 0, 2883 fixed columns
+Coin0506I Presolve 2463 (-211) rows, 5133 (-2883) columns and 10055 (-3305) elements
+Clp0006I 0  Obj 12051.231 Dual inf 9872628 (5133)
+Clp0029I End of values pass after 5133 iterations
+Clp0014I Perturbing problem by 0.001% of 1.0918905 - largest nonzero change 2.9576128e-05 ( 0.0014788064%) - largest zero change 2.9522154e-05
+Clp0000I Optimal - objective value 18130.808
+Clp0000I Optimal - objective value 18130.808
+Coin0511I After Postsolve, objective 18130.808, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0006I 0  Obj 18130.808 Dual inf 49231.988 (2686)
+Clp0014I Perturbing problem by 0.001% of 1.0739009 - largest nonzero change 2.9906324e-05 ( 0.0014953162%) - largest zero change 2.982246e-05
+Clp0000I Optimal - objective value 51399.538
+Clp0000I Optimal - objective value 51399.538
+Clp0000I Optimal - objective value 51399.538
+Coin0511I After Postsolve, objective 51399.538, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0032I Optimal objective 51399.53811 - 0 iterations time 0.572, Presolve 0.04, Idiot 0.52
+
+Starting MIP optimization
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator LabelEncoder from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator _SigmoidCalibration from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator CalibratedClassifierCV from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator ExtraTreeClassifier from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator ExtraTreesClassifier from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+Cgl0008I 2672 inequality constraints converted to equality constraints
+Cgl0004I processed model has 2674 rows, 8016 columns (8016 integer (8016 of which binary)) and 13360 elements
+Coin3009W Conflict graph built in 0.010 seconds, density: 0.012%
+Cgl0015I Clique Strengthening extended 0 cliques, 0 were dominated
+Cbc0045I Nauty did not find any useful orbits in time 0.424406
+Cbc0038I Initial state - 0 integers unsatisfied sum - 0
+Cbc0038I Solution found of -51399.5
+Cbc0038I Before mini branch and bound, 8016 integers at bound fixed and 0 continuous
+Cbc0038I Mini branch and bound did not improve solution (1.66 seconds)
+Cbc0038I After 1.66 seconds - Feasibility pump exiting with objective of -51399.5 - took 0.04 seconds
+Cbc0012I Integer solution of -51399.538 found by feasibility pump after 0 iterations and 0 nodes (1.66 seconds)
+Cbc0001I Search completed - best objective -51399.53810559731, took 0 iterations and 0 nodes (1.67 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Total time (CPU seconds):       1.70   (Wallclock seconds):       1.72
+
+Starting solution of the Linear programming relaxation problem using Primal Simplex
+
+Coin0506I Presolve 2674 (-1) rows, 8016 (-16788) columns and 13360 (-36248) elements
+Clp1000I sum of infeasibilities 0 - average 0, 2883 fixed columns
+Coin0506I Presolve 2463 (-211) rows, 5133 (-2883) columns and 10055 (-3305) elements
+Clp0006I 0  Obj 12051.231 Dual inf 9872628 (5133)
+Clp0029I End of values pass after 5133 iterations
+Clp0014I Perturbing problem by 0.001% of 1.0918905 - largest nonzero change 2.9576128e-05 ( 0.0014788064%) - largest zero change 2.9522154e-05
+Clp0000I Optimal - objective value 18130.808
+Clp0000I Optimal - objective value 18130.808
+Coin0511I After Postsolve, objective 18130.808, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0006I 0  Obj 18130.808 Dual inf 49231.988 (2686)
+Clp0014I Perturbing problem by 0.001% of 1.0739009 - largest nonzero change 2.9906324e-05 ( 0.0014953162%) - largest zero change 2.982246e-05
+Clp0000I Optimal - objective value 51399.538
+Clp0000I Optimal - objective value 51399.538
+Clp0000I Optimal - objective value 51399.538
+Coin0511I After Postsolve, objective 51399.538, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0032I Optimal objective 51399.53811 - 0 iterations time 0.582, Presolve 0.02, Idiot 0.55
+
+Starting MIP optimization
+systemctl_container
+systemctl_container
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.17.0.2:8501
+  External URL: http://185.204.3.240:8501
+
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator LabelEncoder from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator _SigmoidCalibration from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator CalibratedClassifierCV from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator ExtraTreeClassifier from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator ExtraTreesClassifier from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+Welcome to the CBC MILP Solver 
+Version: Trunk
+Build Date: Oct 24 2021 
+
+Starting solution of the Linear programming relaxation problem using Primal Simplex
+
+Coin0506I Presolve 2674 (-1) rows, 8016 (-16788) columns and 13360 (-36248) elements
+Clp1000I sum of infeasibilities 0 - average 0, 2883 fixed columns
+Coin0506I Presolve 2463 (-211) rows, 5133 (-2883) columns and 10055 (-3305) elements
+Clp0029I End of values pass after 5133 iterations
+Clp0014I Perturbing problem by 0.001% of 1.0918905 - largest nonzero change 2.9576128e-05 ( 0.0014788064%) - largest zero change 2.9522154e-05
+Clp0000I Optimal - objective value 18130.808
+Clp0000I Optimal - objective value 18130.808
+Coin0511I After Postsolve, objective 18130.808, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0014I Perturbing problem by 0.001% of 1.0739009 - largest nonzero change 2.9906324e-05 ( 0.0014953162%) - largest zero change 2.982246e-05
+Clp0000I Optimal - objective value 51399.538
+Clp0000I Optimal - objective value 51399.538
+Clp0000I Optimal - objective value 51399.538
+Coin0511I After Postsolve, objective 51399.538, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0032I Optimal objective 51399.53811 - 0 iterations time 0.542, Presolve 0.02, Idiot 0.52
+
+Starting MIP optimization
+2025-04-27 13:34:48.047 Uncaught app execution
+TypeError: object of type 'NoneType' has no len()
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator LabelEncoder from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator _SigmoidCalibration from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator CalibratedClassifierCV from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator ExtraTreeClassifier from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator ExtraTreesClassifier from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+2025-04-27 13:35:40.609 Uncaught app execution
+AttributeError: 'NoneType' object has no attribute 'keys'
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator LabelEncoder from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator _SigmoidCalibration from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator CalibratedClassifierCV from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator ExtraTreeClassifier from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator ExtraTreesClassifier from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator LabelEncoder from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator _SigmoidCalibration from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator CalibratedClassifierCV from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator ExtraTreeClassifier from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator ExtraTreesClassifier from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator LabelEncoder from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator _SigmoidCalibration from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator CalibratedClassifierCV from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator ExtraTreeClassifier from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator ExtraTreesClassifier from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator LabelEncoder from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator _SigmoidCalibration from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator CalibratedClassifierCV from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator ExtraTreeClassifier from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator ExtraTreesClassifier from version 1.5.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+Cgl0008I 2672 inequality constraints converted to equality constraints
+Cgl0004I processed model has 2674 rows, 8016 columns (8016 integer (8016 of which binary)) and 13360 elements
+Coin3009W Conflict graph built in 0.015 seconds, density: 0.012%
+Cgl0015I Clique Strengthening extended 0 cliques, 0 were dominated
+Cbc0045I Nauty did not find any useful orbits in time 0.397941
+Cbc0038I Initial state - 0 integers unsatisfied sum - 0
+Cbc0038I Solution found of -51399.5
+Cbc0038I Before mini branch and bound, 8016 integers at bound fixed and 0 continuous
+Cbc0038I Mini branch and bound did not improve solution (1.71 seconds)
+Cbc0038I After 1.71 seconds - Feasibility pump exiting with objective of -51399.5 - took 0.03 seconds
+Cbc0012I Integer solution of -51399.538 found by feasibility pump after 0 iterations and 0 nodes (1.71 seconds)
+Cbc0001I Search completed - best objective -51399.53810559731, took 0 iterations and 0 nodes (1.73 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Total time (CPU seconds):       1.72   (Wallclock seconds):       1.82
+
+Starting solution of the Linear programming relaxation problem using Primal Simplex
+
+Coin0506I Presolve 2674 (-1) rows, 8016 (-16788) columns and 13360 (-36248) elements
+Clp1000I sum of infeasibilities 0 - average 0, 2883 fixed columns
+Coin0506I Presolve 2463 (-211) rows, 5133 (-2883) columns and 10055 (-3305) elements
+Clp0006I 0  Obj 12051.231 Dual inf 9872628 (5133)
+Clp0029I End of values pass after 5133 iterations
+Clp0014I Perturbing problem by 0.001% of 1.0918905 - largest nonzero change 2.9576128e-05 ( 0.0014788064%) - largest zero change 2.9522154e-05
+Clp0000I Optimal - objective value 18130.808
+Clp0000I Optimal - objective value 18130.808
+Coin0511I After Postsolve, objective 18130.808, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0006I 0  Obj 18130.808 Dual inf 49231.988 (2686)
+Clp0014I Perturbing problem by 0.001% of 1.0739009 - largest nonzero change 2.9906324e-05 ( 0.0014953162%) - largest zero change 2.982246e-05
+Clp0000I Optimal - objective value 51399.538
+Clp0000I Optimal - objective value 51399.538
+Clp0000I Optimal - objective value 51399.538
+Coin0511I After Postsolve, objective 51399.538, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0032I Optimal objective 51399.53811 - 0 iterations time 0.572, Presolve 0.03, Idiot 0.54
+
+Starting MIP optimization
